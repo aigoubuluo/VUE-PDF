@@ -42,7 +42,7 @@ npm run lint
 npm run lint -- --fix
 ```
 
-more [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
+The overall shelf is used by 【vue-element-admin】more [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 ## Browsers support
 

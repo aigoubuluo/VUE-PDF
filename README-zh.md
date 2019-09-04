@@ -44,7 +44,7 @@ npm run lint
 npm run lint -- --fix
 ```
 
-更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
+整体架子使用的是【vue-element-admin】更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 
 ## Browsers support
