@@ -5,8 +5,8 @@ from './PackUpLeftBtn'
 export { default as Navbar }
 from './Navbar'
 export { default as leftSidebar }
-from './leftSidebar'
+from './leftSidebar/leftSidebar'
 export { default as rightSidebar }
-from './rightSidebar'
+from './rightSidebar/rightSidebar'
 export { default as AppMain }
 from './AppMain'

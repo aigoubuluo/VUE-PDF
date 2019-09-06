@@ -17,7 +17,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import Hamburger from '@/components/Hamburger'
+import Hamburger from '@/components/Hamburger/Hamburger'
 
 export default {
   components: {

@@ -1,4 +1,4 @@
-# PDF.js 【锚点定位】
+# 最高检辅助办案平台前端架子 【vue-admin-template】
 
 > 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
@@ -44,7 +44,7 @@ npm run lint
 npm run lint -- --fix
 ```
 
-整体架子使用的是【vue-element-admin】更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
+更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 
 ## Browsers support
