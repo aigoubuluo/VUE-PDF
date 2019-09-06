@@ -99,11 +99,11 @@ export default {
        */
       leftMenuList1:{ //左侧菜单JSON数据
         litigationDocument:{
-            name:'诉讼文书卷',
+            name:'PDF列表一级目录',
             list:[
               {
                 index : '1-1',
-                name : '受案登记表',
+                name : 'DEMO1.pdf',
                 tagState:'1', //是否有标签
                 type : '',//标签背景色
                 tagName : '',//标签名
@@ -112,7 +112,7 @@ export default {
                 PDFKey:'建立必须填写的字段'//PDF锚点值
               },{
                 index : '1-2',
-                name : '受案回执',
+                name : 'DEMO2.pdf',
                 tagState:'0', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
@@ -123,11 +123,11 @@ export default {
           ],
         },
         volumeOfEvidence:{
-            name:'证据材料卷',
+            name:'PDF列表一级目录',
             list:[
               {
                 index : '2-1',
-                name : '证据材料卷',
+                name : 'DEMO3.pdf',
                 tagState:'0', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
@@ -136,7 +136,7 @@ export default {
                 PDFKey:'建立必须填写的字段'//PDF锚点值
               },{
                 index : '2-2',
-                name : '证据材料卷回执',
+                name : 'DEMO4.pdf',
                 tagState:'1', //是否有标签
                 type : '',//标签背景色
                 tagName : '',//标签名
@@ -149,11 +149,11 @@ export default {
       },
       leftMenuList2:{ //左侧菜单JSON数据
         litigationDocument:{
-            name:'诉讼文书卷2',
+            name:'PDF列表一级目录',
             list:[
               {
                 index : '1-1',
-                name : '受案登记表2',
+                name : '1.pdf',
                 tagState:'1', //是否有标签
                 type : '',//标签背景色
                 tagName : '',//标签名
@@ -162,7 +162,7 @@ export default {
                 PDFKey:'导航菜单'//PDF锚点值
               },{
                 index : '1-2',
-                name : '受案回执2',
+                name : '2.pdf',
                 tagState:'0', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
@@ -173,11 +173,11 @@ export default {
           ],
         },
         volumeOfEvidence:{
-            name:'证据材料卷2',
+            name:'PDF列表一级目录',
             list:[
               {
                 index : '2-1',
-                name : '证据材料卷2',
+                name : '3.pdf',
                 tagState:'0', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
@@ -186,7 +186,7 @@ export default {
                 PDFKey:'导航菜单'//PDF锚点值
               },{
                 index : '2-2',
-                name : '证据材料卷回执2',
+                name : '4.pdf',
                 tagState:'1', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
@@ -199,50 +199,50 @@ export default {
       },
       leftMenuList3:{ //左侧菜单JSON数据
         litigationDocument:{
-            name:'诉讼文书卷3',
+            name:'PDF列表一级目录',
             list:[
               {
                 index : '1-1',
-                name : '受案登记表3',
+                name : 'A.pdf',
                 tagState:'1', //是否有标签
                 type : '',//标签背景色
                 tagName : '',//标签名
                 number : '',//数量
                 PDFUrl:'1.pdf',//PDF数据源地址
-                PDFKey:'用户'//PDF锚点值
+                PDFKey:'JavaScript'//PDF锚点值
               },{
                 index : '1-2',
-                name : '受案回执3',
+                name : 'B.pdf',
                 tagState:'0', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
                 number : '1',//数量
                 PDFUrl:'1.pdf',//PDF数据源地址
-                PDFKey:'用户'//PDF锚点值
+                PDFKey:'JavaScript'//PDF锚点值
               }
           ],
         },
         volumeOfEvidence:{
-            name:'证据材料卷3',
+            name:'PDF列表一级目录',
             list:[
               {
                 index : '2-1',
-                name : '证据材料卷3',
+                name : 'C.pdf',
                 tagState:'0', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
                 number : '1',//数量
                 PDFUrl:'1.pdf',//PDF数据源地址
-                PDFKey:'用户'//PDF锚点值
+                PDFKey:'JavaScript'//PDF锚点值
               },{
                 index : '2-2',
-                name : '证据材料卷回执3',
+                name : 'D.pdf',
                 tagState:'1', //是否有标签
                 type : 'danger',//标签背景色
                 tagName : '不规范',//标签名
                 number : '1',//数量
                 PDFUrl:'1.pdf',//PDF数据源地址
-                PDFKey:'用户'//PDF锚点值
+                PDFKey:'JavaScript'//PDF锚点值
               }
           ],
         }
@@ -250,7 +250,7 @@ export default {
       rightMenuList:{ // 右侧菜单JSON数据
         list:[
           {
-            name:'不规范扫描件---图片重复上传',
+            name:'锚点信息-建立必须填写的字段',
             tagState:'1', //是否有标签
             tagList:[
               {
@@ -262,7 +262,7 @@ export default {
             popoverState:'0',
             popoverContent:'证据图片重复上传'
           },{
-            name:'组卷规范，警综平台已填写证据类型',
+            name:'锚点信息-菜单',
             tagState:'1', //是否有标签
             tagList:[
               {
@@ -274,7 +274,7 @@ export default {
             popoverState:'1',
             popoverContent:''
           },{
-            name:'格式错误',
+            name:'锚点信息-JavaScript',
             tagState:'1', //是否有标签
             tagList:[
               {

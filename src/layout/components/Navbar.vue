@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      heardTitleText:"智能辅助办案系统"
+      heardTitleText:"VUE-PDFJs 锚点定位"
     }
   },
   methods: {
@@ -55,6 +55,5 @@ export default {
     font-weight:bold;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../../assets/img/heardbg.png')
   }
 </style>

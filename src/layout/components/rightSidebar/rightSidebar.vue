@@ -2,7 +2,7 @@
   <div style="background-color:#fff; padding: 10px; height: 820px; " >
     <template>
       <el-tabs v-model="activeName" class="tabPane">
-        <el-tab-pane label="瑕疵校验点(3)" name="first">
+        <el-tab-pane label="问题锚点列表(3)" name="first">
 
           <!-- 搜索栏 star-->
           <right-search />
@@ -19,16 +19,16 @@
           <!-- 底部功能按钮 star-->
           <el-row :gutter="12">
             <el-col :span="10" :offset="2" class="offsetBtnNo">
-              <el-button type="danger" size="medium" round>不认同</el-button>
+              <el-button type="danger" size="medium" round>有问题</el-button>
             </el-col>
             <el-col :span="10" :offset="2" class="offsetBtnMES">
-              <el-button type="primary" size="medium" round>短信</el-button>
+              <el-button type="primary" size="medium" round>没问题</el-button>
             </el-col>
           </el-row>
           <!-- 底部功能按钮 end-->
 
         </el-tab-pane>
-        <el-tab-pane label="已通过校验点(0)" name="second">
+        <el-tab-pane label="已确认锚点列表(0)" name="second">
           <!-- 请在此处编写已通过校验点界面代码 -->
           <rightPrompt />
         </el-tab-pane>

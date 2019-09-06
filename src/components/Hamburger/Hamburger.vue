@@ -3,19 +3,19 @@
       <el-row>
         <el-col :span="20">
           <span>
-            <b>测试（B510000000000029387178293）</b>
+            <b>测试（PDFVUE0000000000001.v）</b>
           </span> 
           <el-tag size="mini" type="danger" effect="dark">
-              危害国家安全案
+              测试标签
           </el-tag>
         </el-col>
         <el-col :span="1">
           <svg-icon icon-class="trajectory"/>
-          <span>轨迹</span>
+          <span>菜单一</span>
         </el-col>
         <el-col :span="1">
           <svg-icon icon-class="Emap"/>
-          <span>图谱</span>
+          <span>菜单二</span>
         </el-col>
         <el-col :span="1">
           <svg-icon icon-class="full-screen"/>
