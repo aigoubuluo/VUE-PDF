@@ -32,7 +32,7 @@ import Layout from '@/layout/layout.vue'
 export const constantRoutes = [{
         path: '/login',
         component: () =>
-            import ('@/views/login/index'),
+            import ('@/views/login/login.vue'),
         hidden: true
     },
 
@@ -51,7 +51,7 @@ export const constantRoutes = [{
             path: 'home',
             name: 'Home',
             component: () =>
-                import ('@/views/home/index'),
+                import ('@/views/home/home.vue'),
             meta: { title: '首页' }
         }]
     },
