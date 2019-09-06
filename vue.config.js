@@ -6,7 +6,7 @@ function resolve(dir) {
     return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || '智能辅助办案系统' // page title
+const name = defaultSettings.title || 'VUE-PDFJs' // page title
 
 // If your port is set to 80,
 // use administrator privileges to execute the command line.

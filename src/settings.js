@@ -1,6 +1,6 @@
 module.exports = {
 
-    title: '智能辅助办案系统',
+    title: 'VUE-PDFJs',
 
     /**
      * @type {boolean} true | false
