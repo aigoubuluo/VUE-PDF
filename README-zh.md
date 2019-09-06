@@ -1,6 +1,8 @@
-# 最高检辅助办案平台前端架子 【vue-admin-template】
+# VUE-PDFJs -- 动态锚点定位
 
-> 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
+架子选用[vue-admin-template](https://panjiachen.github.io/vue-element-admin-site/zh/)
+
+> VUE 结合 PDF.js 实现动态锚点定位。
 
 
 ## Build Setup
@@ -42,10 +44,7 @@ npm run lint
 
 # 代码格式检查并自动修复
 npm run lint -- --fix
-```
-
-更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
-
+``` 
 
 ## Browsers support
 

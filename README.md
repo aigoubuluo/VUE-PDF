@@ -1,8 +1,10 @@
-# Jinan People's Procuratorate Supporting case handling platform CLI 【vue-admin-template】
+# VUE-PDFJs -- The anchor point positioning 
+
+FrameWork[vue-admin-template](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 English | [简体中文](./README-zh.md)
 
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
+> VUE combines PDF. Js to realize dynamic anchor location.
 
 
 ## Build Setup
@@ -41,8 +43,6 @@ npm run lint
 # code format check and auto fix
 npm run lint -- --fix
 ```
-
-more [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 ## Browsers support
 
