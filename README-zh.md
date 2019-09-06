@@ -1,6 +1,6 @@
 # VUE-PDFJs -- 动态锚点定位
 
-架子选用[vue-admin-template](https://panjiachen.github.io/vue-element-admin-site/zh/)
+架子选用  [vue-admin-template](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 > VUE 结合 PDF.js 实现动态锚点定位。
 
