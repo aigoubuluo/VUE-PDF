@@ -18,7 +18,7 @@ npm install --registry=https://registry.npm.taobao.org
 npm run dev
 ```
 
-浏览器访问 [http://localhost:1005](http://localhost:1005)
+在线演示DEMO [https://aigoubuluo.github.io/VUEPDF/](https://aigoubuluo.github.io/VUEPDF/)
 
 ## 发布
 
