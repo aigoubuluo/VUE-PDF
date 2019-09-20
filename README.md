@@ -6,7 +6,7 @@ English | [简体中文](./README-zh.md)
 
 > VUE combines PDF. Js to realize dynamic anchor location.
 
-## Build Setup
+## The online Demo
 [DEMO](https://aigoubuluo.github.io/VUEPDF/)
 
 ## Build Setup

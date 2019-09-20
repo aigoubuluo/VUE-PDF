@@ -4,6 +4,8 @@
 
 > VUE 结合 PDF.js 实现动态锚点定位。
 
+## 在线演示
+[点击查看](https://aigoubuluo.github.io/VUEPDF/)
 
 ## Build Setup
 
